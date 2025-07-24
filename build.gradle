@@ -1,0 +1,13 @@
+plugins {
+  id "java"
+  id "groovy"
+}
+
+
+group = "com.nttdata"
+version= "0.1.6"
+
+java {
+	withJavadocJar()
+	withSourcesJar()
+}
